@@ -1,0 +1,10 @@
+git diff					--比较工作区与暂存区之间的差异
+git diff HEAD					--比较版本库与工作区之间的差异
+git diff --cached     				--比较版本库与暂存区之间的差异
+git diff 版本库id1 版本库id2			--比较版本库之间的差异
+	 HEAD~     HEAD         		--比较上一版本与当前版本之间的差异
+	 HEAD^     HEAD				--比较上一版本与当前版本之间的差异
+	 HEAD^2	   HEAD				--比较上两个版本与当前版本之间的差异
+	 HEAD^2    HEAD	      file3.txt         --比较上两个版本与当前版本file3.txt之间的差异
+git diff 分支1	   分支2			--比较分支之间的差异
+工作区->git add->暂存区->git commit->版本库
